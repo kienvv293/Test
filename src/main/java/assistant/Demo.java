@@ -1,5 +1,5 @@
 package assistant;
 
-public class Test {
+public class Demo {
 
 }
