@@ -64,6 +64,7 @@ public class ChatworkClient implements Runnable {
     // tannh 2019/01/09 mod start
     @Override
     public void run() {
+        System.out.println("Kien Dinh");
         // tannh 2019/01/09 mod end
         System.out.println(new Date() + " : " + "********** X Assistant started **********");
 
