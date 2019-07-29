@@ -8,9 +8,5 @@ package assistant;
  *
  */
 public class DbExecute {
-    int test;
-
-    private void test() {
-        int a;
-    }
+    
 }
