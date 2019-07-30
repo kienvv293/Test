@@ -25,7 +25,7 @@ import common.StringCommon;
  * 2. Fill in the data according to the variable in the Template
  * 3. Rebuild the Report Frame.
  * 
- * 2019/01/22 phamxuantung 新規作成
+ * 2019/01/22 phamxuantung æ–°è¦�ä½œæˆ�
  * </PRE>
  * @author phamxuantung
  */
