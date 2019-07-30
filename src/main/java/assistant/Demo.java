@@ -14,4 +14,8 @@ public class Demo {
 	private void test2() {
 
 	}
+	
+	private void test3() {
+
+	}
 }
