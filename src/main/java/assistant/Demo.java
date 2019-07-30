@@ -10,4 +10,8 @@ public class Demo {
 	private void test1() {
 
 	}
+	
+	private void test2() {
+
+	}
 }
