@@ -64,7 +64,6 @@ public class ChatworkClient implements Runnable {
     // tannh 2019/01/09 mod start
     @Override
     public void run() {
-        System.out.println("Kien Dinh");
         // tannh 2019/01/09 mod end
         System.out.println(new Date() + " : " + "********** X Assistant started **********");
 
@@ -114,7 +113,7 @@ public class ChatworkClient implements Runnable {
         // && "124043200".equals(roomId)) {
         // meetingReminder = false;
         // // Send message of Bot to all
-        // sendMessage(roomId, "[toall] mọi người qua họp nhé (blush) !!!");
+        // sendMessage(roomId, "[toall] má»�i ngÆ°á»�i qua há»�p nhÃ© (blush) !!!");
         // }
         // // 0h~7h + 12h~14h: Reset flag
         // if ((hourOfD >= 0 && hourOfD <= 7) || (hourOfD >= 12 && hourOfD <=
@@ -160,7 +159,7 @@ public class ChatworkClient implements Runnable {
                             setToUserInfo(message, messReply);
                             // lucall
                             if (ActionEnum.lucall.toString().equals(command)) {
-                                messReply.append("A hihi.. em (sẽ) login cho anh lúc 8h31' nhé (dance)");
+                                messReply.append("A hihi.. em (sáº½) login cho anh lÃºc 8h31' nhÃ© (dance)");
                             } else
                             // stop
                             if (ActionEnum.stop.toString().equals(command)) {
@@ -186,7 +185,7 @@ public class ChatworkClient implements Runnable {
                                 // messReply =
                                 // CommandExecute.runEstFullDateJpCommand(messSend,
                                 // messReply);
-                                messReply.append("Under Construction !!! Chức năng này đang có lỗi.");
+                                messReply.append("Under Construction !!! Chá»©c nÄƒng nÃ y Ä‘ang cÃ³ lá»—i.");
                             }
                             // tannh 2019/01/09 add start
                             else if (ActionEnum.remind.toString().equals(command)) {
@@ -194,7 +193,7 @@ public class ChatworkClient implements Runnable {
                                 taskReminderThread.start();
                                 Thread reminderThread = new Thread(new PersonalIssueReminderExecute());
                                 reminderThread.start();
-                                messReply.append("done nhé anh ;)");
+                                messReply.append("done nhÃ© anh ;)");
                             }
                             // tannh 2019/01/09 add end
                             // command's not recognized
@@ -418,8 +417,8 @@ public class ChatworkClient implements Runnable {
             int statusCode = httpClient.executeMethod(method);
 
             if (statusCode != HttpStatus.SC_OK) {
-                // System.out.println(new Date() + " : " + "Không có message mới
-                // hoặc Token sai. " + method.getResponseBodyAsString());
+                // System.out.println(new Date() + " : " + "KhÃ´ng cÃ³ message má»›i
+                // hoáº·c Token sai. " + method.getResponseBodyAsString());
                 return BotConst.BLANK;
             } else {
                 return method.getResponseBodyAsString();
@@ -436,7 +435,7 @@ public class ChatworkClient implements Runnable {
 
     /**
      * <PRE>
-     * calculateTime Method。
+     * calculateTime Methodã€‚
      * </PRE>
      * 
      */
