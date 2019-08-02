@@ -15,6 +15,10 @@ public class DbExecute {
 	}
 
 	private void demo1() {
-		int a;
+		int b;
+	}
+	
+	private void demo2() {
+		int c;
 	}
 }
