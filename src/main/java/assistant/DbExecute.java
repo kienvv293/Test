@@ -8,6 +8,14 @@ package assistant;
  *
  */
 public class DbExecute {
-    int a;
-    int b;
+	int a;
+	int b;
+
+	private void test() {
+
+	}
+
+	private void test1() {
+
+	}
 }
