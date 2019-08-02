@@ -8,6 +8,7 @@ package assistant;
  *
  */
 public class DbExecute {
+
 	int a;
 	int b;
 
