@@ -21,9 +21,4 @@ public class DbExecute {
 	private void demo2() {
 		int c;
 	}
-
-	private int demo3() {
-		int c;
-		return 0;
-	}
 }
